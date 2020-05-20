@@ -1,0 +1,109 @@
+
+.info
+{
+    display: inline-block;
+    margin-left:2em;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+    margin-bottom: 2em;
+
+}
+.img
+{
+    display: inline-block;
+    margin-left:10em;
+    vertical-align: 2em;
+    
+}
+button
+{
+background-color: #1a73e8;
+color:white;
+padding:10px 3em;
+border-radius: 8px;
+margin-left:16em;
+border: 1px solid #1a73e8;
+}
+.sign-in
+{
+    margin-left:2em;
+   color: #1a73e8;
+   font-family: 'Open Sans', sans-serif;
+ 
+}
+
+input{
+    border-radius: 4px;
+    height:30px;
+    width:180px;
+    margin:0em 1.5em 2em 0em;
+    border: 1px solid #dadce0 ;
+ 
+}
+
+
+/* GOOGLE */
+#g
+{
+    color: #4e8df5;
+}
+.o
+{
+    color: #ea4335;
+}#o
+{
+    color: #fccd44;
+}
+#l
+{
+    color: #65bd7d;
+}
+#email
+{
+    height:30px;
+    width:390px;
+    margin-bottom:0em;
+}
+.secret
+{
+    margin-bottom:0em;
+}
+#des
+{
+    font-size: 1.3em;
+    font-style: normal;
+}
+form
+{
+    width:60em;
+    margin-left: 10em;
+    margin-bottom: 2em;
+}
+fieldset
+{
+    border: 1px solid #dadce0 ;
+    border-radius: 8px;
+}
+#lang
+{
+    border: none;
+    display: inline-block;
+    margin-right:45em;
+}
+ul
+{
+    display: inline-block;
+}
+ul li
+{
+    display: inline;
+    margin-right:1em;
+   
+}
+footer{
+    margin:0em 2em 2em 10em;
+}
+ul a{
+    color:#757575;
+    text-decoration: none;
+}

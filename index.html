@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>GOOGLE SIGN UP FORM</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/86a62bd63e.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <form action="random.php">
+        <fieldset>
+
+            <div class="info">
+                <h2 id="google"><span id="g"> G</span><span class="o">o</span><span id="o">o</span><span id="g">g</span><span id="l">l</span><span class="o">e</span></h2>
+                <h2 style="margin-bottom: 2em;">Create your Google account</h2>
+                
+                <input type="text" placeholder="first name" required >
+                <input type="text" placeholder="last name" required> <br>
+                <input id="email" type="email" placeholder="username@gmail.com"  required>
+                <p>You can use letters, numbers & periods</p>
+
+                <p style="color:#1a73e8"><b> Use my current email address instead </b></p>
+                <input type="password" placeholder="password" class=secret required maxlength="8">
+                <input type="password" placeholder="confirm" class=secret required maxlength="8"> 
+                <!-- watch icon -->
+                <i class="fa fa-eye-slash" aria-hidden="true"></i>
+
+                <p>use 8 or more characters with a mix of letters,numbers & symbols</p>
+            </div>
+
+
+            <!-- image div -->
+            <div class="img">
+                <img src="google.png" style="margin-bottom: 1.5em;">
+                <p id="des">One account. All of Google <br><br> working for you.</p>
+            </div>
+
+
+            <!-- footer thingy -->
+            <p class="sign-in"><b> sign in instead </b><span><button>NEXT</button></span></p>
+
+
+        </fieldset>
+    </form>
+
+
+    <footer>
+        <select name="language" id="lang">
+            <option value="us" selected disabled>English(united states)</option>
+            <option value="urdu">(urdu)</option>
+            <option value="arabic">(arabic)</option>
+            <option value="sindhi">(sindhi)</option>
+        </select>
+
+        <ul>
+            <li><a href="">help</a> </li>
+            <li><a href="">privacy</a> </li>
+            <li><a href="">terms</a> </li>
+        </ul>
+
+    </footer>
+</body>
+
+</html>
